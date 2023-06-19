@@ -1,0 +1,82 @@
+<html>
+  <head>
+          <center>
+<h1><tittle>FORMULARIO</tittle><h1>
+          </center> 
+  </head>
+<body>
+        Nombre:<input type="text"/>
+        Apellido:<input type="text"/></br>
+        Dirección:<input type="text"/></br>
+        Telefono:<input type="text"/></br>
+        Matricula:<input type="text"/></br>
+    
+            <center>
+    <form method="post" action="tratamiento.php">
+    <p>
+   SEXO:
+<input type="radio" name="sexo" value="Mujer" id="Mujer"/>
+<label for="Mujer"> Mujer<label>
+  
+<input type="radio" name="sexo" value="Hombre" id="Hombre"/>
+<label for="Hombre">Hombre<label></br>
+            </center>
+
+            <center>
+    <form method="post" action="tratamiento.php">
+    <p>
+   ESPECIALIDAD:
+<input type="radio" name="Especialidad" value="Tics" id="Tics"/>
+<label for="Tics">Tics<label>
+  
+<input type="radio" name="Especialidad" value="Asistencia Infantil" id="Asistencia Infantil"/>
+<label for="Asistencia Infantil"> Asistencia Infantil <label></br>
+            </center>
+
+
+    <form method="post" action="tratamiento.php">
+    <p>
+ <label for="SEMESTRE"> ELIGE TU SEMESTRE: </label></br>
+<select name="Semestre" id="Semestre"/>
+<option value="1°"> 1°</option>
+<option value="2°"> 2°</option>
+<option value="3°"> 3°</option>
+<option value="4°"> 4°</option>
+<option value="5°"> 5°</option>
+<option value="6°"> 6°</option>
+
+<input type="checkbox" name="eleccion">
+    <form method="post" action="tratamiento.php">
+    <p>
+  <center>
+<h4>MATERIAS CURSADAS:</h4></br>
+
+<input type="checkbox" name="Word" id="Word"/> <label for= "Word"> Word </label></br>
+<input type="checkbox" name="Excel" id="Excel"/> <label for= "Excel"> Excel </label></br>
+
+<input type="checkbox" name="Mantenimiento y redes de computo" id="Mantenimiento y redes de computo"/>
+ <label for= "Matenimiento  y redes de computo"> Mantenimiento y redes de computo </label></br>
+
+<input type="checkbox" name="Comunidades Virtuales" id="Comunidades Virtuales"/> <label for= "Comunidades Virtuales"> Comunidades virtuales </label></br>
+
+<input type="checkbox" name="Programación" id="Programación"/> <label for= "Programación"> Programación </label></br>
+
+<input type="checkbox" name="Sistemas de información" id="Sistemas de información"/> <label for= "Sistemas de información"> Sistemas de información </label></br>
+
+<input type="checkbox" name="Páginas Web" id="Páginas Web"/> <label for= "Páginas Web"> Páginas Web </label></br>
+
+<input type="checkbox" name="Diseño Digital" id="Diseño Digital"/> <label for= "Diseño Digital"> Diseño Digital </label></br>
+  </center>
+
+ <center>
+----------------------------------------------</br>
+
+<input type="submit" value="ENVIAR"/>
+
+
+<input type="reset" value="BORRAR"/>
+ </center>
+
+
+</body>
+</html>
